@@ -2,7 +2,7 @@
 MixVistaTv:
 ![Screenshot (9)](https://github.com/abhishek9101/MixVistaTv-App/assets/77790762/4d3c396f-d4ab-4311-931d-d71c31b949e0)
 ![Screenshot (7)](https://github.com/abhishek9101/MixVistaTv-App/assets/77790762/54ffcf19-0d96-420a-a5b6-f29ec4754e13)
-![Screenshot (7)](https://github.com/abhishek9101/MixVistaTv-App/assets/77790762/1c01e6bd-5078-4bb2-8ad5-a95b7b760b15)
+![Screenshot (8)](https://github.com/abhishek9101/MixVistaTv-App/assets/77790762/82043da4-66c6-42b0-8249-b90fb3c89ff2)
 
 
 
