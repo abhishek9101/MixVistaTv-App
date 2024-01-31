@@ -1,0 +1,46 @@
+/* Common styles for both desktop and mobile */
+.app-header {
+  background-color: #070505f1;
+  color: yellow;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-placeholder {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo-placeholder img {
+  max-height: 120%;
+  max-width: 120%;
+  border-radius: 20px;
+  
+}
+
+.app-name {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 2px 2px red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .app-name {
+    font-size: 2em; /* Adjust the font size for smaller screens */
+  }
+  
+  .logo-placeholder {
+    margin-right: 10px;
+    border-radius: 20px; /* Adjust margin for smaller screens */
+  }
+}

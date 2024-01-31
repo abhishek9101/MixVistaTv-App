@@ -1,0 +1,201 @@
+/* VideoPlayer.css */
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+
+  .modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .video-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+  }
+
+  
+
+  /* Existing styles... */
+
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden; /* Ensure the video stays within the container */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+/* Add the following styles for mobile responsiveness */
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+
+  .video-container {
+    max-width: none; /* Remove max-width on smaller screens */
+  }
+
+  .video-container video {
+    max-height: none; /* Remove max-height on smaller screens */
+  }
+  
+  .close {
+    font-size: 16px; /* Decrease font size for the close button on smaller screens */
+  }
+  
+  .cut-button {
+    background-color: #ff0000; /* Highlight the cut button with a red background */
+    color: #fff; /* Set text color to white for better visibility */
+    padding: 10px; /* Add padding to the cut button */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    margin-top: 10px; /* Add margin to separate the cut button from other elements */
+    cursor: pointer;
+  }
+ 
+}
+.video-container .duration-button {
+  background-color: #ff0000; /* Red background color */
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold text */
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* Add these styles to your VideoPlayer.css file */
+
+.video-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.video-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-item:hover img {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+.video-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eaff05;
+  font-size: 40px;
+  font-weight:bolder;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.video-item:hover .overlay {
+  opacity: 1;
+}
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 768px) {
+  .video-item .overlay {
+    font-size: 16px; /* Adjust font size for mobile */
+    width: 100%;
+  height: 60%;
+  font-size: 25px;
+  }
+}
+
+
+
+
+/* VideoPlayer.css */
+
+.live-button {
+  background-color: #4caf50; /* Green background color */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.live-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
